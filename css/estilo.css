@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+}
+header{
+    background-color: #c0a969;
+    height: 100px;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+header{
+    padding: 20px 0;
+}
+.logo{
+   
+    width: 50%;
+    margin-top: -48px;
+   
+}
+.logo img{
+    
+    height: 145px;
+}
+
+.menu{
+    padding-top: 16px;
+    width: 50%;
+    text-align: right;
+}
+.menu a{
+    color: #7e4401;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.sobre .site{
+    margin: 0 auto;
+}
+.site{
+    width: 100%;
+    max-width: 1200px;
+}
+.sobre .textoSobre{
+    margin-top: 10px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.sobre .textoSobre h3 {
+    font-size: 20pt;
+    color: #7e4401;
+    font-weight: bold;
+}
+.sobre .textoSobre h2 {
+    font-size: 40pt;
+    color: #a8882f;
+    font-weight: bold;
+}
+.sobre .textoSobre>div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .extras { 
+    position: absolute;
+    bottom: -450;
+    right: -500;
+    width: 996px;
+    height: 1012px;
+    background-color: #bc101b;
+    border-radius: 50%;
+}*/
+.servico .site{
+    margin: 0 auto;
+}
+
+.servico .conteudoServico{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.servico .conteudoServico>div {
+    width: 270px;
+    height: 540px;
+    position: relative;
+}
+
+.servico .conteudoServico>div img {
+    width: 78%;
+    height: 56%;
+    margin: 0 10px;
+}
+.servico .conteudoServico h4 {
+    font-size: 10pt;
+    color: #ffffff;
+    text-align: justify;
+}
+.servico button {
+    width: 170px;
+    height: 75px;
+    background: #a8882f;
+    color: #ffffff;
+    font-size: 20pt;
+    font-family:'Open Sans', sans-serif;
+    border-radius: 0 10px 0 10px;
+    cursor: pointer;
+}
+.img {
+    margin: 150px; /* Margem ao redor de cada div */
+    display: flex; /* Para que as divs fiquem lado a lado */
+    justify-content: space-between;
+}
+
+

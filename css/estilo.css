@@ -5,34 +5,50 @@
     font-family:'Open Sans', sans-serif;
 }
 header{
-    background-color: #c0a969;
-    padding: 20px 0;
-    position: relative;
+    /* background-color: #c0a969; */
+    
     text-align: center;
 }
+
 .center{
     display: flex;
-    
-    max-width: 1280px;
+    max-width: 1356px;
     
     
 }
 .banner {
-    margin-top: -17px; 
-    height: 792px;
-    
+    position: relative;
+    height: 300px; /* Ajuste a altura conforme necessário */
+    overflow: hidden;
 }
+
 .banner img {
-    width: 100%; /* Ajuste conforme necessário */
-    height: auto; /* Manter a proporção */
-    object-fit: cover; /* Corta a imagem para preencher o banner sem distorcer */
+    width: 100%;
+    height: 139%;
+    object-fit: cover; /*Faz a imagem cobrir o banner IMPORTANTE */ 
+    position: absolute; /* Permite que o texto seja posicionado em cima da imagem */
+    top: 0;
+    left: 0;
+}
+
+.banner h1 {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza o texto */
+    color: white; /* Cor do texto */
+    font-size: 2.5em; /* Tamanho do texto */
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); Sombra para melhor legibilidade */
+    margin: 0;
+    text-align: center; /* Centraliza o texto */
+    z-index: 1; /* Garante que o texto fique acima da imagem */
 }
 
 
 .logo{
    
     width: 50%;
-    margin-top: -48px;
+    margin-top: -30px;
    
 }
 .logo img{
@@ -41,7 +57,7 @@ header{
 }
 
 .menu{
-    padding-top: 16px;
+    padding-top: 38px;
     width: 50%;
     text-align: right;
 }
@@ -59,7 +75,7 @@ header{
     max-width: 1200px;
 }
 .sobre .textoSobre{
-    margin-top: 10px;
+    
     line-height: 40px;
     display: flex;
     justify-content: space-between;
@@ -68,12 +84,12 @@ header{
 
 .sobre .textoSobre h3 {
     font-size: 20pt;
-    color: #7e4401;
+    color: #c85f5b;
     font-weight: bold;
 }
 .sobre .textoSobre h2 {
     font-size: 40pt;
-    color: #a8882f;
+    color: #bc101bd1;
     font-weight: bold;
 }
 .sobre .textoSobre>div:nth-child(1){

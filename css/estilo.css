@@ -548,16 +548,9 @@ menu img{
     color: #ffffff;
     text-align: justify;
 }
-.conteudoSobre{
-    margin-top: 20px;
-    width: 100%;
-   
-    background: url(../img/esp.png) no-repeat;
-    background-size: 100% 100%;
-    /* background-color: hwb(312.94deg 29.02% 50.98%); */
-    background-blend-mode: multiply;
-    padding: 41px 0;
-}
+
+
+
  
 .sobre .site{
     margin: 0 auto;
@@ -575,6 +568,7 @@ menu img{
     color: hwb(312.94deg 29.02% 50.98%);
     display: flex;
     /* color: #ffffff; */
+    margin-top: 500px;
    
 }
 
@@ -599,10 +593,21 @@ menu img{
 }
 .sobre .conteudoSobre p{
     font-size: 16pt;
-    color: hwb(312.94deg 29.02% 50.98%);
+    /* color: hwb(312.94deg 29.02% 50.98%); */
     line-height: 25pt;
     text-align: justify;
-    margin: -16px 0;
+    margin: 30px 0;
+}
+.conteudoSobre{
+    
+    margin-top: -305px;
+    width: 100%;
+   
+    background: url(../img/esp.png) no-repeat;
+    background-size: 100% 100%;
+    /* background-color: hwb(312.94deg 29.02% 50.98%); */
+    background-blend-mode: multiply;
+    padding: 41px 0;
 }
 .especialidades{
     margin-top: 20px;
@@ -613,6 +618,7 @@ menu img{
     background-color: hwb(312.94deg 29.02% 50.98%);
     background-blend-mode: multiply;
     padding: 41px 0;
+    margin-bottom: 100px;
 }
  
 .especialidades .site{

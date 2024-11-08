@@ -78,35 +78,7 @@
        
                
         </section>
-        <section class="sobre">
-            <article class="site">
-                <div class="texto-Sobre">
-                   
-                    <div>
-                        <a href="https://maps.app.goo.gl/KDbNffkBQTmAh5px5">
-                        <!-- <div>
-                            <img class="img-light" src="img/local.png" alt="Endereço">
-                            <img class="img-dark" src="img/local-branco.png" alt="Endereço"> -->
-                            <!-- <div>
-                                <p>Estamos localizados em</p>
-                                <p>Av. da Cultura, 1234</p>
- 
-                            </div>
-                        </div> -->
-                        </a>
-                        <a href="">
-                        <!-- <div>
-                            <img class="img-light" src="img/contato.png" alt="Contato">
-                            <img class="img-dark" src="img/contato-branco.png" alt="Contato">
-                            <div>
-                                <p>Contato</p>
-                                <p>(11) 988 620 365</p>
-                            </div>
-                        </div> -->
-                    </a>
-                   
-                    </div>
-                    </section>
+
                    
                    
                

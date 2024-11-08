@@ -34,9 +34,15 @@
         <!-- banner -->
         <?php require_once('conteudo/banner.php'); ?>
         <!-- banner -->
-
+        
+         <!-- menu -->
+         <?php require_once('conteudo/menu.php');?>
+         
+                 <!-- menu -->
         <!-- <div> -->
         <!-- sobre -->
+        </header>
+        <main id="pg-sobre">
         <section class="sobre">
             <article class="site">
 
@@ -46,7 +52,7 @@
 
 
                     <div class="especialidade1">
-                        <img src="img/sectionsobre.png" alt="Especialidade em Motores de Alto Desempenho">
+                        <!-- <img src="img/sectionsobre.png" alt="Especialidade em Motores de Alto Desempenho"> -->
 
                         <p>Bem-vindo à Books&Fun, um espaço dedicado à paixão pela leitura e à descoberta de novas histórias! Fundada em 2024 com o objetivo de conectar jovens e adultos ao fascinante mundo dos livros, nossa livraria oferece uma curadoria cuidadosamente selecionada de obras que inspiram, emocionam e fazem refletir.</p>
                     </div>
@@ -73,14 +79,18 @@
                 </div>
             </article>
         </section>
-        
-    <!--JQUERY obrigatório para animação-->
-    <script type="text/javascript" src="//code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-3.5.0.min.js"></script>
-    <!--Animação CARROSSEL Slick-->
-    <script type="text/javascript" src="js/slick.min.js"></script>
-    <script src="js/lity.js"></script>
-    <!--Minha animação sempre por último-->
-    <script type="text/javascript" src="js/js.animation.js"></script>
+        <!-- Inicio Rodapé -->
+    <?php require_once('conteudo/rodape.php');?>
+    <!-- Fim Rodapé -->
+
+        <!--JQUERY obrigatório para animação-->
+        <script type="text/javascript" src="//code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-3.5.0.min.js"></script>
+        <!--Animação CARROSSEL Slick-->
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script src="js/lity.js"></script>
+        <!--Minha animação sempre por último-->
+        <script type="text/javascript" src="js/js.animation.js"></script>
 </body>
+
 </html>

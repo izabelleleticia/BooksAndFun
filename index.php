@@ -90,7 +90,7 @@
                     <div class="textoa">
                      <div>
                         <h3>Acabaram</h3>
-                        <h2>de chegar!</h2>
+                        <h2>de chegar!!!</h2>
                     </div>
                        
                     </div>

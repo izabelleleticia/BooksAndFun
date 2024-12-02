@@ -157,7 +157,7 @@
         </section> -->
  
         <!--Fim Galeria-->
-        
+        <?php require_once('conteudo/clube.php');?>
  
         <?php require_once('conteudo/blog.php');?>
  

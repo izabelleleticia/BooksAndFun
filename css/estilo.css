@@ -808,13 +808,32 @@ menu img{
 .galeria img:hover{
     box-shadow: 10px 10px 20px #27325a;
 }
+
+.clubeDoLivro{
+    width: 100%;
+    height: 300px;
+    
+}
+
+.clubeDoLivro .site{
+    margin-top: -85px;
+}
+
+.clubeDoLivro .texto h1{
+    font-size: 20pt;
+    color: hwb(312.94deg 29.02% 50.98%);
+    display: flex;
+
+}
+.clubeDoLivro .texto h2{
+    font-size: 40pt;
+    color: hwb(312.94deg 29.02% 50.98%);
+    display: flex;
+}
+
 .blog{
     width: 100%;
     height: 600px;
-    
- 
-    
- 
 }
 .blog .site{
     margin-top: 20px;

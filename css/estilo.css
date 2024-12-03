@@ -1039,7 +1039,7 @@ menu img{
 .formContato h2{
     font-size: 40pt;
     color:hwb(313 35% 45%);
-    margin-top: -10px;
+    margin-top: 100px;
 }
 
 
@@ -1167,7 +1167,7 @@ menu img{
 .formContato form{
     width: 50%;
     display: flex;
-    margin: 10px 450px;
+    /* margin: 10px 450px; */
     background: hwb(312.94deg 29.02% 50.98%);
     border-radius: 50px 50px 50px 50px;
     height: 500px;

@@ -112,7 +112,7 @@ header>div{
 }
 .site{
     width: 100%;
-    /* max-width: 1200px; */
+    max-width: 1200px;
 }
  
 .header {
@@ -811,13 +811,14 @@ menu img{
 
 .clubeDoLivro{
     width: 100%;
-    height: 300px;
+    min-height: auto;
     
 }
 
 .clubeDoLivro .site{
     margin-top: -85px;
 }
+
 
 .clubeDoLivro .texto h1{
     font-size: 20pt;
@@ -830,16 +831,17 @@ menu img{
     color: hwb(312.94deg 29.02% 50.98%);
     display: flex;
 }
+.clubeDoLivro .texto.img{
+    width: 100%;
+}
+
 
 .blog{
     width: 100%;
-    height: 600px;
+    min-height: auto;
+    background-color: hwb(312.94deg 29.02% 50.98%);
 }
-.blog .site{
-    margin-top: 20px;
-   
-}
- 
+
 .blog .textoBlog{
  
     display: flex;
@@ -849,19 +851,22 @@ menu img{
  
 .blog .textoBlog h3{
     font-size: 20pt;
-    color: hwb(312.94deg 29.02% 50.98%);
+    /* color: hwb(312.94deg 29.02% 50.98%); */
+    color: #FFFFFF;
     display: flex;
    
    
 }
 .blog .textoBlog h2{
     font-size: 40pt;
-    color: hwb(312.94deg 29.02% 50.98%);
+    /* color: hwb(312.94deg 29.02% 50.98%); */
+    color: #FFFFFF;
    
 }
 .conteudoBlog p{
     font-size: 20pt;
-    color: hwb(312.94deg 29.02% 50.98%);
+    /* color: hwb(312.94deg 29.02% 50.98%); */
+    color: #FFFFFF;
     display: flex;
     margin-left: 10px;
 }
@@ -902,21 +907,18 @@ menu img{
     font-size: 20pt;
     font-family: 'fonteMestre';
     border-radius: 0 10px 0 10px;
-    cursor: pointer;
-   
-   
-   
+    cursor: pointer;  
 }
 .conteudoBlog button:hover{
     background: #ccc;
 }
  
-.site .conteudoBlog img{
+.conteudoBlog img{
    
     width: 180px;
     height: 280px;
  
-    margin: 40px 35px;
+    margin: 10px;
     border-radius: 10px;
 }
 .conteudoBlog{
@@ -924,6 +926,7 @@ menu img{
     align-items: center;
     justify-content: space-between;
     margin-top: -40px;
+    width: 198%;
 }
 .blog .serie {
     margin-left: 650px
@@ -932,9 +935,11 @@ menu img{
 #pg-blog .blog .site{
     margin-top: 230px;
 }
-
+.serie .sobresite{
+    margin-top: 20px;
+}
 .serie .sobresite img{
-    margin-left: 430px;
+    margin-left: 620px;
     margin-top: 50px;
 }
 .sobresite h1{
@@ -949,11 +954,6 @@ menu img{
 .rodape {
     background-color: #ffffff;
 } 
-
-
-
-
-
 .rodape{
     width: 100%;
     height: 200px;
@@ -1039,17 +1039,16 @@ menu img{
 .formContato h2{
     font-size: 40pt;
     color:hwb(313 35% 45%);
-    margin-top: 100px;
+   
 }
 
 
-.formContato form {
-    width: 50%;
+.formContato form{
+    width: 100%;
     display: flex;
-    margin: 12px 500px;
-    background: hwb(312.94deg 29.02% 50.98%);
-    border-radius: 52px 10px 10px 50px;
-    height: 500px;
+    margin: 10px 0;
+    background: hwb(312.94deg 29.02% 50.98%);;
+    border-radius: 50px 0 0 50px;
 }
 
 .formContato form>div:nth-child(1){
@@ -1102,7 +1101,7 @@ menu img{
     font-size: 18pt;
 }
 .formContato form div input{
-    width: 95%;
+    width: 197%;
     padding: 5px;
     margin: 10px 5% 10px 0;
     font-size: 18pt;
@@ -1118,7 +1117,7 @@ menu img{
 
 
 .formContato form div textarea{
-    width: 95%;
+    width: 198%;
     margin: 10px 5% 10px 0;
     font-size: 18pt;
     font-family: 'fonteMestre';
@@ -1157,7 +1156,7 @@ menu img{
 }
 .formContato form div:nth-child(2){
     margin-left: -20%;
-    background: url(../img/fotoEspecialidade1.png) no-repeat;
+    /* background: url(../img/espaco1.png) no-repeat; */
     background-size: 150% 100%;
     background-position: 40%;
     width: 70%;
@@ -1165,12 +1164,13 @@ menu img{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
 }
 .formContato form{
-    width: 50%;
+    width: 100%;
     display: flex;
-    /* margin: 10px 450px; */
+    margin: 10px 0;
     background: hwb(312.94deg 29.02% 50.98%);
     border-radius: 50px 50px 50px 50px;
     height: 500px;
+
 }
 
  

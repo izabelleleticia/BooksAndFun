@@ -23,8 +23,22 @@
                             <input type="reset" value="LIMPAR">
                         </div>
                     </div>
-                    
+                    <div></div>
                     </form>
 </div>
             </article>
         </section>
+        <footer>
+        <?php require_once('conteudo/rodape.php');?>
+        </footer>
+        <!--JQUERY obrigatório para animação-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-3.7.1.min.js"></script> 
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-3.5.0.min.js"></script>
+    <!--Animação CARROSSEL Slick-->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/lity.js"></script>
+    <!--Minha animação sempre por último-->
+    <script type="text/javascript" src="js/js.animation.js"></script>
+    </main>
+</body>
+</html>

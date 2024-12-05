@@ -1,6 +1,5 @@
 <section class="especialidades">
             <article class="site">
-   
                     <div class="conteudoEspecialidade">
                         <h3>Escolha Seu</h3>
                         <h2>Próximo Livro</h2>

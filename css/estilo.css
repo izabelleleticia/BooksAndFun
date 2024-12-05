@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'fonteMestre';
+    font-family: 'fontebk';
     src: url('/fonts/Poppins-SemiBoldItalic.ttf') format('ttf'),
     url('../fonts/Poppins-SemiBoldItalic.ttf') format('woff');
     font-weight: normal;
@@ -7,7 +7,7 @@
 }
  
 body{
-    font-family:'fonteMestre';
+    font-family:'fontebk';
     margin: 0;
     padding: 0;
 }
@@ -113,6 +113,7 @@ header>div{
 .site{
     width: 100%;
     max-width: 1200px;
+    margin: 0 auto;
 }
  
 .header {
@@ -130,11 +131,8 @@ header>div{
 .logo {
     filter: invert(1) brightness(2) saturate(0);
 }
-header .site{
-    margin: 0 auto;
-   
-}
-.topo{
+
+/* .topo{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -174,7 +172,7 @@ header .site{
 }
 .topo img:nth-child(6){
     margin-right: 0;
-}
+} */
 
 .menu .site{
     margin: 0 auto;
@@ -228,163 +226,6 @@ menu img{
     margin: 0 auto;
     z-index: 1;
 }
- 
-/*inicio do conteudo*/
- 
-/* SOBRE NÓS - Página SOBRE */
-.sobre-nos{
-    width: 100%;
- 
-}
-.sobre-nos .site{
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-.sobre-nos .imagem-sobre{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-}
-.sobre-nos .imagem-sobre>div:nth-child(1){
-    background: url(../img/imgsobre.png) no-repeat;
-    background-size: 100% 100%;
-    width: 50%;
-    height: 520px;
-    margin-right: 15px;
-    justify-content: end;
-    align-items: end;
-}
-.sobre-nos .imagem-sobre>div:nth-child(2){
-    background: url(../img/imgsobre2.png) no-repeat;
-    background-size: 100% 100%;
-    width: 50%;
-    height: 520px;
-    margin-right: 15px;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-}
-.sobre-nos .imagem-sobre>div:nth-child(2) div{
-    width: 180px;
-    height: 140px;
-    background: #27325a;
-    color: #ffffff;
-    border: #000000 solid 10px;
-   
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-}
-.sobre-nos .imagem-sobre>div:nth-child(2) h2{
-    font-size: 20pt;
-    margin: 30px;
-}
-.sobre-nos .imagem-sobre>div:nth-child(2) h3{
-    font-size: 14pt;
-}
- 
-.sobre-nos .texto-sobre{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.dark .sobre-nos .texto-sobre{
-    color: #ffffff;
-}
-.sobre-nos .texto-sobre h3{
-    font-size: 24pt;
-    margin-top: 25pt;
-}
-.sobre-nos .texto-sobre h2{
-    font-size: 50pt;
-}
-.sobre-nos .texto-sobre p{
-    font-size: 14pt;
-    line-height: 20pt;
-    text-align: justify;
- 
-}
- 
-/* FIM SOBRE NÓS - Página SOBRE */
-.sobre .site{
-    margin: 0 auto;
-}
-.sobre .texto-Sobre{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 0;
-}
-.sobre .texto-Sobre>div:nth-child(1){
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.sobre .texto-Sobre h3{
-    font-size: 20pt;
-    color: #7e4401
-}
-.dark .sobre .texto-Sobre h3{
-    font-size: 20pt;
-    color: #c6d1f1;
-}
-.sobre .texto-Sobre h2{
-    font-size: 40pt;
-    color:
-    #a8882f
-}
-.dark .sobre .texto-Sobre h2{
-    font-size: 40pt;
-    color: #ffffff;
-}
- 
-.sobre .texto-Sobre>div:nth-child(2){
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-}
- 
-.sobre .texto-Sobre>div:nth-child(2)>a>div{
-    display: flex;
-}
-.sobre .texto-Sobre>div:nth-child(2)>a{
-    text-decoration: none;
-}
-.sobre .texto-Sobre>div:nth-child(2)>a>div img{
-    width: 75px;
-    height: 75px;
-}
- 
-.dark .sobre .texto-Sobre>div:nth-child(2)>a>div img{
-    width: 75px;
-    height: 75px;
-   
-}
-.sobre .texto-Sobre>div:nth-child(2)>a>div div p:nth-child(1){
-    font-size: 12pt;
-    color: #4a567a;
-   
-}
-.dark .sobre .texto-Sobre>div:nth-child(2)>a>div div p:nth-child(1){
-    font-size: 12pt;
-    color: #c6d1f1;
-   
-}
-.sobre .texto-Sobre>div:nth-child(2)>a>div div p:nth-child(2){
-    font-size: 18pt;
-    color: #27325a;
-   
-}
-.dark .sobre .texto-Sobre>div:nth-child(2)>a>div div p:nth-child(2){
-    font-size: 18pt;
-    color: #ffffff;
-   
-}
-
-
-
 
 .apresentacao{
     margin-top: 250px;
@@ -411,147 +252,9 @@ menu img{
     font-size: 40pt;
     color: hwb(254 40% 33%);
     /* margin-top: 20px; */
-    position: absolute;
-       
- 
- 
- 
- 
-    .apresentacao h3, h2{
-   
-    }
-         
-}
-   
-       
- 
- 
- 
- 
- 
-.sobre .videosobre{
-    width: 100%;
-    height: 400px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url('../img/livraria.img.png') no-repeat;
-    background-size:cover; /*Ajusta a medida da imagem*/
-    background-position: center 40%; /*Ajusta a posição da imagem de fundo*/
-}
-.sobre .videosobre img{
-    width: 125px;
-    height: 125px;
-}
-.sobre .videosobre img:hover{
-    width: 135px;
-    height: 135px;
-    transform: rotate(5deg);
-}
-.servico .site{
-    margin: 0 auto;
-}
- 
- 
-.servico .textoServiço{
-    display: flex;
-    justify-content: space-between;
-    margin: 40px 0 80px 0;
-}
- 
-.servico .textoServiço h3{
-    font-size: 20pt;
-    color: #4a567a;
-}
-.dark .servico .textoServiço h3{
-    color: #c6d1f1;
-}
-.servico .textoServiço h2{
-    font-size: 40pt;
-    color: #27325a;  
-}
-.dark .servico .textoServiço h2{
-    font-size: 40pt;
-    color: #ffffff;  
-}
-.servico .texto-Sobre>div:nth-child(1){
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.servico button{
-   
-    width: 300px;
-    height: 75px;
-    background: #27325a;
-    color: #ffffff;
-    font-size: 20pt;
-    font-family: 'fonteMestre';
-    border-radius: 0 10px 0 10px;
-    cursor: pointer;
-   
-}
-.dark .servico button{
-    background: #c6d1f1;
-    color: #27325a;
-   
-   
-}
-.servico button:hover{
-    background: #000000;
-}
- 
-.dark .servico button:hover{
-    background: #ffffff;
-}
-.servico .conteudoServico{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-.servico .conteudoServico>div{
-    width: 270px;
-    height: 540px;
-    position: relative;
-}
-.servico .conteudoServico>div img{
-   width: 100%;
-   height: 100%;
-}
-.servico .conteudoServico>div div{
-    max-width: 100%;
-    height: 100%;
-    max-height: 100%;
-    background: rgb(39, 50, 90, 0.8);
-    padding: 0 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-.servico .conteudoServico>div:hover div{
-    opacity: 1;
-    transition: opacity 0.5s ease;
-}
-.servico .conteudoServico h4{
-    font-size: 20pt;
-    text-align: center;
-    /*margin-top: 200px;
-    margin-bottom: 20px;*/
-    margin: 280px 20px 45px 20px;
-    color: #ffffff;
-}
-.servico .conteudoServico p{
-    font-size: 10pt;
-    color: #ffffff;
-    text-align: justify;
+    position: absolute;        
 }
 
-
-
- 
 .sobre .site{
     margin: 0 auto;
     height: 100%;
@@ -611,31 +314,14 @@ menu img{
 }
 .especialidades{
     margin-top: 20px;
-    width: 100%;
-   
-    background: url(../img/esp.png) no-repeat;
-    background-size: 100% 100%;
     background-color: hwb(312.94deg 29.02% 50.98%);
-    background-blend-mode: multiply;
     padding: 41px 0;
     margin-bottom: 100px;
 }
- 
-.especialidades .site{
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-}
-.especialidades .conteudoEspecialidade{
-    width: 860px;
-    margin-top: -30px;
-}
+
 .especialidades .conteudoEspecialidade h3{
     font-size: 20pt;
     /* color: hwb(312.94deg 29.02% 50.98%); */
-    display: flex;
     color: #ffffff;
    
 }
@@ -651,8 +337,7 @@ menu img{
 }
  
 .especialidades .conteudoEspecialidade img{
-    width: 860px;
-    height: 550px;
+    width: 100%;
     margin: 20px 0px;
     border-radius: 15px;
    
@@ -664,134 +349,6 @@ menu img{
     text-align: justify;
     margin: 20px 0;
 }
-.especialidades .boxEspecialidade{
-    width: 260px;
-    background: #27325a;
-    padding: 20px;
-}
-.especialidades .boxEspecialidade h6{
-    font-size: 20pt;
-    text-transform: lowercase;
-    color: #ffffff;
-}
-.especialidades .boxEspecialidade h5{
-    font-size: 28pt;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-bottom: 30px;
-}
-.especialidades .boxEspecialidade div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 10px;
-    background: rgb(0, 0, 0, 0.5);
-    border-radius: 20px 0px 20px 0px;
-    margin: 20px 0;
-}
-.especialidades .boxEspecialidade div.ativo{
-    background: #000000;
- 
-}
-.especialidades .boxEspecialidade div:hover{
-    background: #000000;
-   
- 
-}
-.especialidades .boxEspecialidade img{
-    width: 40px;
-    height: 40px;
-    padding-right: 10px;
-    margin-right: 10px;
-    border-right: hsl(0, 100%, 100%) 1px solid;
-}
-.especialidades .boxEspecialidade a,
-.especialidades .boxEspecialidade p{
-    font-size: 12pt;
-    color: #ffffff;
-    text-decoration: none;
-}
-.reparos{
-    display: flex;              /* Usando flexbox */
-    align-items: center;
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    width: 100%;
-    height: 600px;
-    background-color: #000000;
-}
-.reparos .site{
-    margin-top: 30px;
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
-   
-}
-.reparos .escolher {
-    width: 45%;
-}
- 
-.reparos .site .imagem{
-    width: 45%;
- 
-}
- 
-.reparos .site .escolher h2{
-    margin-bottom: 40px;
-    font-size: 20pt;
-    color: #ffffff;
-}
-.reparos .escolher p{
-    color: #ffffff;
-    line-height: 20px;
-    font-size: 14pt;
-    margin-top: 20px;
-    text-align: justify;
-}
- 
- 
-.reparos .progresso-barra{
-    margin-bottom: 20px;
- 
-}
- 
-.reparos .progresso-barra span{
-    margin-bottom: 5px;
-    display: block;
-    font-size: 20pt;
-    color: #ffffff;
-   
-}
-.progresso-barra .progresso{
-    background: #333333;
-    overflow: hidden;
-    position: relative;
-}
-.preencher{
-    background-color: #27325a;
-    height: 30px;
-}
-.porcentagem{
-    position: absolute;
-    right: 10px;
-    top: 5px;
-    height: 20px;
-    line-height: 20px;
- 
-}
- 
-.reparos .site .imagem img{
-    width: 100%;            /* Ajuste conforme necessário */
-    height: auto;    
-    border-radius: 20px;
-}
- 
- 
- 
 .galeria{
     display: flex;
     justify-content: center;
@@ -806,7 +363,7 @@ menu img{
  
 }
 .galeria img:hover{
-    box-shadow: 10px 10px 20px #27325a;
+    box-shadow: 10px 10px 20px hwb(312.94deg 29.02% 50.98%);
 }
 
 .clubeDoLivro{
@@ -897,29 +454,8 @@ menu img{
 .blog button:hover{
     background: #cccc;
 }
- 
-.conteudoBlog button{
-    margin: 40px 0 auto;
-    width: 200px;
-    height: 50px;
-    background: #ffffff;
-    color: #27325a;
-    font-size: 20pt;
-    font-family: 'fonteMestre';
-    border-radius: 0 10px 0 10px;
-    cursor: pointer;  
-}
 .conteudoBlog button:hover{
     background: #ccc;
-}
- 
-.conteudoBlog img{
-   
-    width: 180px;
-    height: 280px;
- 
-    margin: 10px;
-    border-radius: 10px;
 }
 .conteudoBlog{
     display: flex;
@@ -928,10 +464,15 @@ menu img{
     margin-top: -40px;
     width: 198%;
 }
-.blog .serie {
+.conteudoBlog img{
+    width: 180px;
+    height: 280px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.blog .serie{
     margin-left: 650px
 }
-
 #pg-blog .blog .site{
     margin-top: 230px;
 }
@@ -984,20 +525,6 @@ menu img{
     margin-top: 3px;
     text-align: justify;
     margin-left: 10px;
-}
-.rodape .redeSocial{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 40px;
-}
-.rodape .redeSocial img{
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
-}
-.rodape .redeSocial img:hover{
-    transform: skew(-10deg);
-    transition: 1s ease;
 }
 .rodape nav{
     width: 20%;

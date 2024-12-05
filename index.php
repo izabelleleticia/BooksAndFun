@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="css/lity.css">
  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    
        
     <!--MINHA FOLHA DE ESTILO SEMPRE SERÁ O ÚLTIMO LINK-->
     <link rel="stylesheet" href="css/estilo.css">
@@ -42,49 +44,11 @@
             <!-- menu -->
             <?php require_once('conteudo/menu.php');?>
                  <!-- menu -->
-
-
-
-
-            <!-- <article class="topo">
-                <div class="contato">
-                    <a href="mailto:contato@mestremotores.com.br">
-                        <img src="img/1.png" alt="Email Mestre Motores"> -->
-                        <!-- <p>contato@mestremotores.com.br</p> -->
-                    <!-- </a> -->
-                    <!-- <a href="tel:+551199999999"> -->
-                        <!-- <img src="img/iconeTel.svg" alt="Telefone Mestre Motores"> -->
-                        <!-- <p>11933400719</p> -->
-                    <!-- </a> -->
-                <!-- </div> -->
-                <!-- <div>
-                    <a href="#"><img src="img/iconeWhats.svg" alt="Whatsapp"></a>
-                    <a href="#"><img src="img/iconeInsta.svg" alt="Instagram"></a>
-                    <a href="#"><img src="img/iconeFace.svg" alt="Facebook"></a>
-                    <a href="#"><img src="img/iconeTwitter.svg" alt="Twitter"></a>
-                    <a href="#" id="modoDark"> <img class="icone-dark" src="img/dark.png" alt=""></a>
-                </div> -->
-            </article>
- 
-                <!-- <a href="index.html">
-                 <h1 class="animate__animated animate__pulse animate__infinite"> Logo Mestre Motores</h1>
-                </a> -->
-               
-           
-        </section>
-    </div>
     </header>
     <main>
        
                
-        
-
-                   
-                   
-               
-             
-                
-
+    
                 <section class="apresentacao">
                     <article class="site">
                     <div class="textoa">
@@ -106,7 +70,7 @@
                 <!-- <div class="videosobre">
                     <a href="https://www.youtube.com/watch?v=ZFWC4SiZBao&list=RDZFWC4SiZBao&start_radio=1" data-lity><img src="img/Botão-Youtube-PNG.png" alt="play"></a>
                 </div>      -->
-        </section>
+        
        
         <!--Inicio especialidades-->
         <?php require_once('conteudo/especialidade.php');?>

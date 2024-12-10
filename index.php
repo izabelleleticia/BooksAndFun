@@ -127,10 +127,11 @@
  
  
     </main>
+    <footer>
     <!-- Inicio Rodapé -->
     <?php require_once('conteudo/rodape.php');?>
     <!-- Fim Rodapé -->
-        
+    </footer>
  
     <!--JQUERY obrigatório para animação-->
     <script type="text/javascript" src="//code.jquery.com/jquery-3.7.1.min.js"></script>

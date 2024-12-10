@@ -34,12 +34,16 @@
         <section class=serie>
             
         <div class=sobresite>
-                    <h1>Assista</h1>
-                    <h2>O verão que me tornei bonita</h2>
-                    <div>
-                    <img src="img/personagens.jpg" alt="">
+                <h1>Assista</h1>
+                <h2>O verão que me tornei bonita</h2>
+                    <div class=personagens  >
+                      <img src="img/belly.png" alt="">
+                      <img src="img/conrad.png" alt="">
+                      <img src="img/jeremiah.png" alt="">
                     </div>
-                    </div>
+                    
+        </div>
+
                     <div>
                         <img src="serie.jpg" alt="">
                     </div>

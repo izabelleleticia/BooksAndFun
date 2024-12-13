@@ -429,6 +429,25 @@ menu img{
     display: flex;
     margin-left: 10px;
 }
+
+.sobreLivros .site{
+    margin: 0 auto;
+}
+
+.sobreLivros h1,h2{
+    color: #FFFFFF;
+}
+.sobreLivros p{
+    background-color: hwb(312.94deg 29.02% 50.98%);
+    color: #FFFFFF;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
 .blog button{
     width: 300px;
     height: 75px;
@@ -464,7 +483,6 @@ menu img{
     align-items: center;
     justify-content: space-between;
     margin-top: -40px;
-    width: 198%;
 }
 .conteudoBlog img{
     width: 180px;
@@ -491,6 +509,7 @@ menu img{
 .personagens{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 .sobresite .slogan img{
     width: 100%;
@@ -506,7 +525,7 @@ menu img{
 /*Inicio do Rodapé*/
 .rodape{
     width: 100%;
-    height: 200px;
+    height: 350px;
     background-color: hwb(267.86deg 77.25% 11.76%);
 }
 .rodape img{
@@ -539,13 +558,19 @@ menu img{
     text-align: justify;
     margin-left: 10px;
 }
+
+.rodape .textoRodape img{
+    height: 157px;
+    width: 100px;
+
+}
 .rodape nav{
-    width: 20%;
+
  
 }
 .rodape nav h2{
     font-size: 28pt;
-    margin-top: 10px;
+    color: #FFFFFF;
 }
  
 .rodape nav a{
@@ -571,7 +596,7 @@ menu img{
     line-height: 50px;
     font-size: 14pt;
     color: #ffffff;
-    margin-bottom: -10px;
+    
 }
 
 .formContato .site{
@@ -1091,5 +1116,4 @@ menu img{
         line-height: 25px;
     }
 }
- 
  
